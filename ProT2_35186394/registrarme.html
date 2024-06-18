@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="color: green;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA BIBLIOTECA OLVIDADA</title>
+    <link rel="stylesheet" href="miestilo.css">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <H1 class="titulo">LA BIBLIOTECA OLVIDADA</H1>
+    
+    <header class="MITOS">
+        MITOS Y LEYENDAS
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="principal.html">Inicio</a></li>
+            <li><a href="quienes somos.html">Quienes somos</a></li>
+            <li><a href="Acerca de.html">Acerca De</a></li>
+            <li><a href="#servicios">CRIATURAS MARINAS</a></li>
+            <li><a href="#servicios">CRIATURAS TERRESTRES</a></li>
+            <li><a href="#servicios">CRIATURAS VOLADORAS</a></li>
+            <li><a href="registrarme.html">Registrarme</a></li>
+          </ul>
+          <div class="barra-busqueda">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button onclick="buscar()">Buscar</button>
+        </div>
+    </nav>
+    <nav>
+      
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+   Contacto
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Solicitudes</a></li>
+    <li><a class="dropdown-item" href="#">Compras</a></li>
+  </ul>
+</div>
+    </nav>
+    
+<form class="form">
+    <div class="formulario">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="formulario">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    
+    <div class="formulario">
+      <label for="inputCity" class="form-label">Provincia</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="formulario">
+      <label for="inputState" class="form-label">Ciudad</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="formulario">
+      <label for="inputZip" class="form-label">Nombre de Usuario</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="formulario">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="formulario">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+    
+
+  <div class="imagen form">
+    <img src="./imagenes/info registro.jpg" alt="">
+  </div>
